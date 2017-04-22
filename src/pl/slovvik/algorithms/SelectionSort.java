@@ -1,4 +1,6 @@
-package pl.slovvik;
+package pl.slovvik.algorithms;
+
+import pl.slovvik.algorithm.Algorithm;
 
 public class SelectionSort extends Algorithm {
 
@@ -14,8 +16,8 @@ public class SelectionSort extends Algorithm {
                 for (int in = out + 1; in < getLength(); in++) {
                     if (array[in] < array[min])
                         min = in;
-                    swap(out, min);
                 }
+                swap(out, min);
             }
         });
     }

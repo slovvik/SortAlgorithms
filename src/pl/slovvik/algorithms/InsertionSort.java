@@ -1,4 +1,6 @@
-package pl.slovvik;
+package pl.slovvik.algorithms;
+
+import pl.slovvik.algorithm.Algorithm;
 
 public class InsertionSort extends Algorithm {
 
